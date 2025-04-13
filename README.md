@@ -1,0 +1,2 @@
+# aisiya
+ai only fun 
