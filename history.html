@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat History</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #f7f8f8, #fcfbfc);
+        }
+
+        #history-window {
+            background: linear-gradient(to bottom, #f6f6f7, #fcf9fc);
+            height: calc(100vh - 150px);
+            overflow-y: auto;
+            scroll-behavior: smooth;
+            box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="p-4">
+        <h1 class="text-2xl font-bold mb-4">Chat History</h1>
+        <div id="history-window" class="p-4 bg-white rounded-lg shadow-lg">
+            <!-- Chat history will be displayed here -->
+            <p>No history available yet.</p>
+        </div>
+    </div>
+</body>
+</html>
